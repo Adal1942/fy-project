@@ -6,7 +6,7 @@ html, body, #home {
 }
 
 body {
-    background: url(../assets/img/Banner2.png);
+    background: url(../assets/img/Banner.png);
     background-attachment: fixed;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -49,17 +49,16 @@ nav.navbar-transparent {
     -moz-border-radius: 500px;
     border-radius: 500px;
     text-transform: uppercase;
-    transition: background 0.4s, color 0.4s;
     padding: 10px 20px;
-    margin: 0 10px;
+    margin: 20px 10px;
 }
 
 .btn-blue {
-    background: #6dd5fa;
+    background: #0f6b6b;
+    text-shadow: 2px 5px 10px #7c25f8;
 }
 
 .btn-blue:hover {
-    background: #0f6b6b;
     color: #fff;
 }
 
@@ -70,6 +69,7 @@ nav.navbar-transparent {
 .btn-t:hover {
     background: #fff;
     color: #000;
+    text-shadow: 2px 5px 10px #0f6b6b;
 }
 
 .carousel-control-prev, .carousel-control-next {
@@ -171,7 +171,11 @@ h3 {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .btn-custom{
+    body {
+        background: url(../assets/img/Banner-vertical.png);
+    }
+
+    .btn-custom {
         margin: 10px 15px;
         font-size: 1em;
     }
@@ -185,6 +189,10 @@ h3 {
 
     .btn-custom{
         margin: 10px 15px;
+    }
+
+    .arrows {
+        font-size: 1em;
     }
 }
 
