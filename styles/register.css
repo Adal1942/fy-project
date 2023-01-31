@@ -163,6 +163,10 @@ input[type="submit"]:active {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    html, body, #home {
+        height: 100%;
+        overflow: hidden;
+    }
     .box {
         position: relative;
         width: 330px;
